@@ -1,0 +1,26 @@
+{
+  "name": "webpack4",
+  "version": "1.0.0",
+  "description": "Code for Webpack 4 course.  Version 3 is at https://github.com/lawwantsin/webpack-course-v3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawwantsin/webpack-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lawwantsin/webpack-course/issues"
+  },
+  "homepage": "https://github.com/lawwantsin/webpack-course#readme",
+  "dependencies": {
+    "css-loader": "^3.6.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
