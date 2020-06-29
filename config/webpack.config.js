@@ -25,6 +25,26 @@ module.exports = {
                         loader: "css-loader"
                     }
                 ]
+            },
+            {
+                test: /\.html$/,
+                use: [
+                    {
+                        loader: "file-loader",
+                        options: {
+                            name: "[name].html"
+                        }
+                    },
+                    {
+                        loader: "extract-loader",
+                        options: {
+                            publicPath: "../"
+                        }
+                    },
+                    {
+                        loader: "html-loader"
+                    }
+                ]
             }
         ]
     }
